@@ -7,6 +7,19 @@ document.addEventListener("DOMContentLoaded",()=>{
                 displayStudents(student)
             })
 
+    })
+    .catch(error => console.log(error))
+            //CATCH ERROR SYNTAX-you can use this instead it's a matter of preference
+            // async function displayStudents2(){
+            // try{
+            //     const response = await fetch(url)
+            //         const data = await response.json()
+            //         data.forEach(student => displayStudents(student))
+            // }catch(error){
+            //     console.log(error)
+            // }
+            // displayStudents2()
+
         //POST
         document.getElementById("add-form").addEventListener("submit",(event)=>{
             event.preventDefault()
@@ -30,7 +43,6 @@ document.addEventListener("DOMContentLoaded",()=>{
                 .catch(error => console.log(error))
             })
         })
-
     })
     
     //EDIT part form
@@ -56,7 +68,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         studList.appendChild(studContainer)
     }
       
-})
+
 
 //DELETE function
 function deleteStud(id){
@@ -98,8 +110,22 @@ function deleteStud(id){
     }
 
     //ASYN AWAIT KEYWORD FUNCTION
-    async function displayStudent2(){
-        const response = await fetch(url)
-        const data =  response.json()
-    }
+    // async function displayStudent2(){
+        // //FETCH SYNTAX
+        // const response = await fetch(url)
+            // const data =  response.json()
+
+            // console.log(data)
+
+        // //CATCH ERROR SYNTAX-----you can use it at the top
+        // async function displayStudent2(){
+        // try{
+        //     const response = await fetch(url)
+        //         const data = await response.json()
+        //         data.forEach(student => console.log(student))
+        // }catch(error){
+        //     console.log(error)
+        // }
+    // }}
+
 

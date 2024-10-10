@@ -14,9 +14,9 @@
     },
     {
       "name": "Rebecca",
-      "age": 33,
+      "age": "34",
       "id": "3",
-      "studentNo": 1137
+      "studentNo": "1137"
     },
     {
       "name": "Solomon",
