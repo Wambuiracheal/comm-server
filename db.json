@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "name": "Maxwell",
+      "age": 23,
+      "id": "1",
+      "studentNo": 1135
+    },
+    {
+      "name": "Racheal",
+      "age": 27,
+      "id": "2",
+      "studentNo": 1136
+    },
+    {
+      "name": "Rebecca",
+      "age": 33,
+      "id": "3",
+      "studentNo": 1137
+    },
+    {
+      "name": "Solomon",
+      "age": "35",
+      "id": "4",
+      "studentNo": "1138"
+    },
+    {
+      "name": "Anna",
+      "age": 46,
+      "id": "5",
+      "studentNo": 1139
+    },
+    {
+      "id": "f6df",
+      "name": "Pricsilla",
+      "age": "46",
+      "studentNo": "1140"
+    },
+    {
+      "id": "c751",
+      "name": "Adolph",
+      "age": "24",
+      "studentNo": "1141"
+    },
+    {
+      "id": "ab44",
+      "name": "Quincy",
+      "age": "16",
+      "studentNo": "1142"
+    }
+  ]
+}

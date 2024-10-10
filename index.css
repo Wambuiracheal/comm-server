@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+.student{
+    background-color: rgb(247, 133, 4);
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+   
+}
+
+#students{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(190, 75, 75);
+    flex-wrap: wrap;
+}
+#update-btn{
+    background-color: green;
+    margin: 10px;
+    width: 100px;
+    margin-left: 30%;
+}
+
+#delete-btn{
+    background-color: red;
+    margin: 10px;
+    width: 100px;
+    margin-left: 30%;
+}
